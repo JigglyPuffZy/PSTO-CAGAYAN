@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "psto-client",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "client",
+        "run",
+        "dev"
+      ],
+      "port": 5173
+    },
+    {
+      "name": "psto-demo",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/c",
+        "npm --prefix client run dev -- --mode demo --port 5174"
+      ],
+      "port": 5174
+    }
+  ]
+}

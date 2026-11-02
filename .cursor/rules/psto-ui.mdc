@@ -1,0 +1,13 @@
+---
+description: PSTO UI — DOST design system (colors, typography, surfaces)
+globs: PSTO/client/**/*
+alwaysApply: true
+---
+
+# PSTO UI standards
+
+- **Colors**: DOST palette only (`--dost-primary-dark`, `--dost-primary`, `--dost-mid`, `--dost-soft`, `--dost-pale`, `--dost-wash`, `--dost-muted`). See `client/src/lib/dost-colors.ts` and `client/src/index.css`.
+- **Typography**: **Source Sans 3** body (`--font-sans`), **Barlow** headings/labels (`font-display` / `--font-display`). No third font; avoid `font-mono` in UI.
+- **Surfaces**: Use `.surface-card`, `.surface-card-interactive`, `.dost-eyebrow`, `.dost-section-title` from `index.css` instead of ad-hoc shadows/borders.
+- **Tone**: Professional, modern, government-trustworthy — glass/blur sparingly; subtle motion; no dev/setup banners on login.
+- **Charts**: Blues from `CHART_BLUES` / `DOST`; tick/legend color `#5a7290`.

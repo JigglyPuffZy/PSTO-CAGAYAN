@@ -1,0 +1,2 @@
+-- Use setup.sql instead (idempotent + sample data).
+-- This file is kept for reference; run: supabase/setup.sql
